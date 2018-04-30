@@ -2,51 +2,62 @@
 <body>
 
 test
-<form action="siharai-kanryo-page.html" method="POST">
-  <script
-    src="https://checkout.stripe.com/checkout.js" class="stripe-button"
-    data-key="pk_test_OunH8kgPtjiMggvgx1voiAdq"
-    data-amount="11"             // 価格
-    data-name="Farmfes co.ltd (test)"  // フォーム名
-    data-description="Widget (test)"   // フォーム説明文
-    data-image="https://stripe.com/img/documentation/checkout/marketplace.png"  // フォーム画像
-    data-locale="ja"            // 地域設定（日本はja）
-    data-currency="jpy"         // 通貨単位（日本円はJPY）
-    data-email="ide@farmfes.com"
-  >
-  </script>
-</form>
+  <form action="siharai-kanryo-page.html" method="POST">
+    <script
+      src="https://checkout.stripe.com/checkout.js" class="stripe-button"
+      data-key="pk_test_OunH8kgPtjiMggvgx1voiAdq"
+      data-amount="11"             // 価格
+      data-name="Farmfes co.ltd (test)"  // フォーム名
+      data-description="Widget (test)"   // フォーム説明文
+      data-image="https://stripe.com/img/documentation/checkout/marketplace.png"  // フォーム画像
+      data-locale="ja"            // 地域設定（日本はja）
+      data-currency="jpy"         // 通貨単位（日本円はJPY）
+      data-email="ide@farmfes.com"
+    >
+    </script>
+  </form>
 
 honban 51 yen
-<form action="siharai-kanryo-page.html" method="POST">
-  <script
-    src="https://checkout.stripe.com/checkout.js" class="stripe-button"
-    data-key="pk_live_IIqhUBmEKWpWNZOanPGREq5F"
-    data-amount="51"             // 価格
-    data-name="Farmfes co.ltd (honban)"  // フォーム名
-    data-description="Widget (honban)"   // フォーム説明文
-    data-image="https://stripe.com/img/documentation/checkout/marketplace.png"  // フォーム画像
-    data-locale="ja"            // 地域設定（日本はja）
-    data-currency="jpy"         // 通貨単位（日本円はJPY）
-    data-email="ide@farmfes.com"
-  >
-  </script>
-</form>
+  <form action="siharai-kanryo-page.html" method="POST">
+    <script
+      src="https://checkout.stripe.com/checkout.js" class="stripe-button"
+      data-key="pk_live_IIqhUBmEKWpWNZOanPGREq5F"
+      data-amount="51"             // 価格
+      data-name="Farmfes co.ltd (honban)"  // フォーム名
+      data-description="Widget (honban)"   // フォーム説明文
+      data-image="https://stripe.com/img/documentation/checkout/marketplace.png"  // フォーム画像
+      data-locale="ja"            // 地域設定（日本はja）
+      data-currency="jpy"         // 通貨単位（日本円はJPY）
+      data-email="ide@farmfes.com"
+    >
+    </script>
+  </form>
 
 honban 51 yen, noAddress
-<form action="siharai-kanryo-page.html" method="POST">
-  <script
-    src="https://checkout.stripe.com/checkout.js" class="stripe-button"
-    data-key="pk_live_IIqhUBmEKWpWNZOanPGREq5F"
-    data-amount="51"             // 価格
-    data-name="Farmfes co.ltd (honban)"  // フォーム名
-    data-description="Widget (honban)"   // フォーム説明文
-    data-image="https://stripe.com/img/documentation/checkout/marketplace.png"  // フォーム画像
-    data-locale="ja"            // 地域設定（日本はja）
-    data-currency="jpy"         // 通貨単位（日本円はJPY）
+  <form action="siharai-kanryo-page.html" method="POST">
+    <script
+      src="https://checkout.stripe.com/checkout.js" class="stripe-button"
+      data-key="pk_live_IIqhUBmEKWpWNZOanPGREq5F"
+      data-amount="51"             // 価格
+      data-name="Farmfes co.ltd (honban)"  // フォーム名
+      data-description="Widget (honban)"   // フォーム説明文
+      data-image="https://stripe.com/img/documentation/checkout/marketplace.png"  // フォーム画像
+      data-locale="ja"            // 地域設定（日本はja）
+      data-currency="jpy"         // 通貨単位（日本円はJPY）
+    >
+    </script>
+  </form>
+  
+use php
+  <form action="./charge.php" method="post">
+  <script src="https://checkout.stripe.com/checkout.js" class="stripe-button"
+      data-key="pk_live_IIqhUBmEKWpWNZOanPGREq5F"
+      data-amount="60"
+      data-locale="ja"
+      data-currency="jpy"
   >
   </script>
-</form>
+  </form>
 
 </body>
 </html>
