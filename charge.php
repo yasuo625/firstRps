@@ -1,6 +1,6 @@
 <?php
 require 'path/to/vendor/autoload.php';
-\Stripe\Stripe::setApiKey("your test secret key");
+\Stripe\Stripe::setApiKey("pk_test_OunH8kgPtjiMggvgx1voiAdq");
 $token = filter_input(INPUT_POST, 'stripeToken');
 try {
     if(!is_string($token)){
